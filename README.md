@@ -33,6 +33,15 @@ If you just want to use the web app, it is already deployed on herokuapp over th
 3. After login, you can post an image, status, comment, chats, and receive all kinds of notification, you can also search other users via the homepage's search button
 4. The app uses JWT (Jason Web Token) that will keep you logged in for 2 days, when you open the app next time, you don't need to login anymore!
 
+In case you want to download this repo and run the app locally instead:
+1. Download the zip of this file
+2. Extract it somewhere on your device
+3. Make sure you already have node.js installed and working properly on your device
+4. Open a terminal/command prompt then redirect it to your zip extraction folder
+5. Initialize install on all the dependencies first, run "npm install" on you terminal
+6. Once finished you can run "npm run dev" to start the Express server
+7. If it succeeded, the local link will be on: http://localhost:3000
+
 ===
 
 Limitation(s):
