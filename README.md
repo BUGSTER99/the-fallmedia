@@ -49,3 +49,4 @@ Limitation(s):
 1. The upload media can only receive image-type, cannot receive any other file-type
 2. My registration on sendGrid which should be used to provide password reset capability via email of this app was rejected, so unfortunately users cannot recover their account if they forgot their password
 3. The notif "password must be atleast 6 characters" still show up even though the page is login screen, not signup
+4. While the MongoDB database will get updated accordingly in real-time with updates of the web (say a user delete a post or comment, then the db will also delete said post or comment), the image is still stored in Cloudinary repo, which will eventually can make the repo full with unused image
